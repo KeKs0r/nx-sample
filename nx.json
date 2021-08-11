@@ -13,9 +13,7 @@
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
-      }
+      "options": {}
     }
   },
   "targetDependencies": {
@@ -36,15 +34,29 @@
     "node-lib": {
       "tags": []
     },
-    "nx-sample": {
+    "react-app": {
       "tags": []
     },
-    "nx-sample-e2e": {
+    "react-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["nx-sample"]
+      "implicitDependencies": ["react-app"]
     },
     "react-lib": {
       "tags": []
+    },
+    "web-app": {
+      "tags": []
+    },
+    "web-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-app"]
+    },
+    "web-various": {
+      "tags": []
+    },
+    "web-various-e2e": {
+      "tags": [],
+      "implicitDependencies": ["web-various"]
     }
   }
 }
