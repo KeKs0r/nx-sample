@@ -27,12 +27,24 @@
     ]
   },
   "projects": {
+    "express-app": {
+      "tags": []
+    },
+    "node-app": {
+      "tags": []
+    },
+    "node-lib": {
+      "tags": []
+    },
     "nx-sample": {
       "tags": []
     },
     "nx-sample-e2e": {
       "tags": [],
       "implicitDependencies": ["nx-sample"]
+    },
+    "react-lib": {
+      "tags": []
     }
   }
 }
